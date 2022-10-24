@@ -1,13 +1,6 @@
 # DecisionTree
 A decision tree implemented by Hunt's Algorithm.
 
-Author SIDs:  
-- An LYU: 1155124488
-- Dongsheng YUAN: 1155177815
-- Jianhui GE: 1155107776
-- Xiang WU: 1155124573
-- Yuxin LI: 1155107874
-
 ## Dataset
 - Original Dataset is available at http://archive.ics.uci.edu/ml/datasets/Adult
 - The Training Dataset is located at the directory "/DecisionTree/rawData/"
@@ -22,7 +15,7 @@ You can run the script with the following command:
 * `<data_path_test>`: The path of the test dataset, which is set as "./rawData/adult.test" by default.
 ### Options include:
 * `-c <cut_thred>`: The cut threshold is an positive integer limiting the minimum size of dataset in a Decision Tree node while training, i.e. if |S| <= <cut_thred>, then return a leaf node. This parameter is set as 0.0022*<size_of training_set> by default.
-* '-o <out_path>': The output file path where the constructed decision tree will be written. Set as "output.txt" by default.
+* `-o <out_path>`: The output file path where the constructed decision tree will be written. Set as "output.txt" by default.
 
 ### Usage Examples:
 * `python main.py`

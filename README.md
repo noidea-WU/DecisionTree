@@ -8,6 +8,7 @@ A decision tree implemented by Hunt's Algorithm.
 
 ## Usage
 You can run the script with the following command:
+
     ```
     python main.py <data_path_train> <data_path_test> [options ...]
     ```
